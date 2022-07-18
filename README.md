@@ -1,22 +1,23 @@
-# Mongodb
-# Create a new Mongo
+## Electron Mongodb CRUD
 
-Step 0:
-To download the database tools from the Mongodb download center.
-https://www.mongodb.com/docs/v4.2/reference/program/mongofiles/
+A desktop app to take notes using Electron.js, and Mongodb as database.
 
-download link:
-https://www.mongodb.com/try/download/database-tools
+![](./screenshot.png)
 
+### Requeriments
 
-step 1: 
-To create database in mongo db instance
+- Nodejs
+- Mongodb (local or remote installation)
 
+### Environment variables
 
-Step:2
-TO use Mongofiles.exe command to put and get files from the DB
+```
+MONGODB_URI
+```
 
+## Installation
 
-Refer: 
-Learning curve excel for the put and get commands.
-
+```bash
+npm i
+npm start
+```
